@@ -1,20 +1,68 @@
-<h1>🛒FastShop Ecommerce - Análise de Vendas📦</h1>
+# 📦 Dashboard FastShop – Power BI
 
+> Análise visual e estratégica dos dados de vendas de uma loja virtual, com foco em tomada de decisão rápida e assertiva.
 
-<h2>Description</h2>
-The project consists of a simple PowerBi presentation that shows the results of an e-commerce company, making it easier to analyze the results and also helping to define the marketing strategy. It is possible to analyze the total number of sales and how many products are available in the store, as well as indicators such as the average delivery time, which payment method consumers prefer, which product category may be the most popular and the evolution of sales by period (which can be filtered by year, month and quarter).
-<br />
+---
 
+## 🧠 Sobre o Projeto
 
-<h2>Languages and Utilities Used</h2>
+Esse projeto tem como objetivo apresentar, de forma clara e visual, os principais indicadores de performance de uma loja online em ascensão. Através de um **dashboard interativo em Power BI**, possibilitando que os gestores entendam o comportamento de compra dos clientes, otimizando o mix de produtos e tomando decisões baseadas em dados — não em achismos.
 
-- <b>PowerBI</b> 
+---
 
-<h2>Environments Used </h2>
+## 🔍 Principais Funcionalidades
 
-- <b>Windows 11</b> (24H2)
+- 📦 **Total de Pedidos** e **Produtos Vendidos**
+- 📅 **Prazo médio de entrega**
+- 💳 **Preferência de pagamento dos clientes**
+- 🛍️ **Categorias mais populares**
+- 📈 **Evolução das vendas por trimestre**
+- 🔎 **Filtros interativos** por ano, mês e produto
 
-<h2>Dashboard</h2>
-<p align="center">
-<img src="https://github.com/user-attachments/assets/6934e110-7d66-4d7e-8536-5b81eedba4e3" height="80%" width="80%" alt="Análise de Vendas"/>
-<br />
+---
+
+## 📊 Ferramentas Utilizadas
+
+- 🖥️ **Power BI**: Criação do dashboard e tratamento de dados
+- 📄 **Excel**: Base de dados de vendas
+- ✍️ **DAX**: Métricas calculadas personalizadas (% de pagamentos, médias, etc)
+
+---
+
+## 🧩 Etapas
+
+1. **Coleta de Dados**  
+   - Utilizei uma base com dados de pedidos, produtos e clientes.
+
+2. **Modelagem**  
+   - Relacionamento entre tabelas normalizado para permitir filtros por categorias, períodos e produtos.
+
+3. **Criação de Métricas**  
+   - Cálculo da entrega média, métodos de pagamento, análise percentual por categoria etc.
+
+4. **Design do Dashboard**  
+   - Layout mais limpo, com cores vibrantes e leitura simples.
+
+---
+
+## 🔎 Principais Insights
+
+- **73% das compras são feitas com cartão de crédito**, indicando um público com confiança de crédito e preferência por parcelamento.
+- **Categoria “Cama, Mesa e Banho” lidera em vendas**, sendo um ponto-chave para promoções e estratégias de marketing.
+- **Trimestre 2 apresentou o maior número de pedidos (29 mil)**, possivelmente ligado a campanhas sazonais.
+- **Prazo médio de entrega de 12 dias** pode ser um gargalo logístico a ser otimizado.
+
+---
+
+## 📷 Preview
+
+![Dashboard Power BI](https://github.com/user-attachments/assets/6934e110-7d66-4d7e-8536-5b81eedba4e3)
+
+---
+
+## 🚀 Próximos passos
+
+- Incluir segmentação geográfica e canais de aquisição
+- Comparativo entre períodos
+- Análise preditiva de vendas (com Python ou DAX avançado)
+
